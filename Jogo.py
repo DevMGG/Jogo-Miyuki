@@ -122,7 +122,8 @@ def run():
             if event.type == pygame.KEYUP:
                 if event.key in (pygame.K_LEFT, pygame.K_RIGHT):
                     change_x = 0
-                if event.key in (pygame.K_UP, pygame.K_DOWN)
+                if event.key in (pygame.K_UP, pygame.K_DOWN):
+                    change_y = 0
 
         # Atualizar o boneco
         Cigarrinho.update(change_x, change_y, wall_list)
