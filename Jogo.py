@@ -49,7 +49,7 @@ screen = pygame.display.set_mode(screen_size)
 pygame.display.set_caption('Cigarrinho Pacman')
 
 # Sprite do boneco
-Cigarrinho = pygame.image.load('Cigarribia.jpg')
+Cigarrinho = pygame.image.load('Cigarribia.png')
 pygame.display.set_icon(Cigarrinho)
 
 # Configurar as paredes
@@ -85,7 +85,7 @@ def run():
     gate = _gate(sprites_list)
 
     # Criar o boneco
-    Cigarrinho = Player(303 - 16, (7 * 60) + 19, "Cigarribia.jpg")
+    Cigarrinho = Player(303 - 16, (7 * 60) + 19, "Cigarribia.png")
     sprites_list.add(Cigarrinho)
 
     # Criar as bolinhas
